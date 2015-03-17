@@ -1,0 +1,2 @@
+sh log | i Mar 13
+show ver | i uptime
