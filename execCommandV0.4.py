@@ -35,7 +35,7 @@ parser.add_option("-S", "--sql", dest="sql",
 parser.add_option("-V", "--verbose", dest="verbose",
 	help="print with verbose output",  metavar="verbose", default=False)
 parser.add_option("-v", "--version", dest="version",
-	help="print current version", metavar="version", default=0.3, type="float")
+	help="print current version", metavar="version", default=0.4, type="float")
 parser.add_option("-q", "--quiet", dest="quiet",
 	help="don't print status messages to stdout", metavar="quiet", default=False)
 (options, args) = parser.parse_args()
